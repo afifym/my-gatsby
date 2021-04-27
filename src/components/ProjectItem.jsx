@@ -165,6 +165,16 @@ const Wrapper = styled.div`
           top: 35px;
         }
       `
+    } else if (cls === "heal") {
+      return css`
+        background-color: #e5e5e5;
+
+        .bg {
+          background-size: 250px;
+          right: -70px;
+          top: 10px;
+        }
+      `
     }
   }}
 

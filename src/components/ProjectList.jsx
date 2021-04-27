@@ -12,11 +12,23 @@ import wordImage from "../assets/images/word.jpg"
 import wordIcon from "../assets/icons/word.svg"
 import intellicImage from "../assets/images/intellic.jpg"
 import intellicIcon from "../assets/icons/intellic.svg"
+import healovoImage from "../assets/images/healovo.jpg"
+import healovoIcon from "../assets/icons/healovo.svg"
 
 import styled from "styled-components"
 import { Container, StyledHeading } from "../styles/sharedStyles"
 
 const projectData = [
+  {
+    name: "Healovo",
+    description:
+      "A medical booking website built with React and Firebase, Multi-step formik registeration and more..",
+    url: "https://healovo.web.app/",
+    image: healovoImage,
+    icon: healovoIcon,
+    theme: "light",
+    cls: "heal",
+  },
   {
     name: "Merchmania",
     description:
