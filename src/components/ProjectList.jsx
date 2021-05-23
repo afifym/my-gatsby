@@ -31,9 +31,9 @@ const projectData = [
   },
 
   {
-    name: "Healovo",
+    name: "Healovo Medical Booking",
     description:
-      "A medical booking website built with React and Firebase, Multi-step formik registeration and more..",
+      "A medical booking website built with React, Redux, Material-UI, and Firebase, with Multi-step formik registration, detailed filtration, and an Admin Dashboard",
     url: "https://healovo.web.app/",
     image: healovoImage,
     icon: healovoIcon,

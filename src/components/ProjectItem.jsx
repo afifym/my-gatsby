@@ -130,9 +130,9 @@ const Wrapper = styled.div`
         background-color: #1a202c;
 
         .bg {
-          background-size: 230px;
-          top: 10px;
-          right: -100px;
+          background-size: 210px;
+          top: 40px;
+          right: -120px;
         }
       `
     } else if (cls === "rota") {
@@ -170,9 +170,9 @@ const Wrapper = styled.div`
         background-color: #e5e5e5;
 
         .bg {
-          background-size: 250px;
-          right: -70px;
-          top: 10px;
+          background-size: 220px;
+          right: -120px;
+          top: 30px;
         }
       `
     }
