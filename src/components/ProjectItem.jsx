@@ -131,7 +131,7 @@ const Wrapper = styled.div`
 
         .bg {
           background-size: 210px;
-          top: 40px;
+          top: 30px;
           right: -120px;
         }
       `
