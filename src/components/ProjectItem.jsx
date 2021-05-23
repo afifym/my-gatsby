@@ -127,12 +127,12 @@ const Wrapper = styled.div`
       `
     } else if (cls === "starling") {
       return css`
-        background-color: #445357;
+        background-color: #1a202c;
 
         .bg {
-          background-size: 350px;
+          background-size: 230px;
           top: 10px;
-          right: -20px;
+          right: -100px;
         }
       `
     } else if (cls === "rota") {

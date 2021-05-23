@@ -20,6 +20,17 @@ import { Container, StyledHeading } from "../styles/sharedStyles"
 
 const projectData = [
   {
+    name: "Starling Time Manager",
+    description:
+      "A time-management web app built with Next.js, TypeScript, Context, Chakra-UI, Styled components, and Firebase. To be migrated to React Native",
+    url: "https://starlingtm.netlify.app/",
+    image: starlingImage,
+    icon: starlingIcon,
+    theme: "dark",
+    cls: "starling",
+  },
+
+  {
     name: "Healovo",
     description:
       "A medical booking website built with React and Firebase, Multi-step formik registeration and more..",
@@ -49,16 +60,6 @@ const projectData = [
     icon: kanbanIcon,
     theme: "light",
     cls: "kanban",
-  },
-  {
-    name: "Starling Time Manager",
-    description:
-      "A time management side-project that is projected to becoming a fully-fledged web and mobile application.",
-    url: "https://starling-react.netlify.app/",
-    image: starlingImage,
-    icon: starlingIcon,
-    theme: "dark",
-    cls: "starling",
   },
 
   {
@@ -97,9 +98,13 @@ const Wrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 3em 0;
+  padding-bottom: 3em;
+  padding-top: 1em;
 `
 const StyledContainer = styled(Container)`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: ${({ theme }) => theme.colors.dark1};
 `
 
@@ -107,8 +112,37 @@ const ProjectList = () => {
   return (
     <StyledContainer className="main" id="projects">
       <StyledHeading style={{ color: "white" }}>projects</StyledHeading>
+      <h2
+        style={{
+          color: "white",
+          marginTop: "1em",
+          backgroundColor: "#10141b",
+          padding: "4px 8px",
+        }}
+      >
+        Top Projects
+      </h2>
+
       <Wrapper>
-        {projectData?.map((item, i) => (
+        {projectData?.slice(0, 2)?.map((item, i) => (
+          <ProjectItem key={i} data={item} />
+        ))}
+      </Wrapper>
+
+      <h2
+        style={{
+          color: "white",
+          marginTop: "1em",
+          backgroundColor: "#10141b",
+
+          padding: "4px 8px",
+        }}
+      >
+        Other Projects
+      </h2>
+
+      <Wrapper>
+        {projectData?.slice(2)?.map((item, i) => (
           <ProjectItem key={i} data={item} />
         ))}
       </Wrapper>

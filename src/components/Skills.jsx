@@ -146,10 +146,13 @@ const Skills = () => (
             <li>JavaScript (ES6)</li>
             <li>jQuery</li>
             <li>React</li>
+            <li>Next.js</li>
+            <li>Context</li>
             <li>Hooks</li>
             <li>React Router</li>
             <li>Redux</li>
             <li>Material-UI</li>
+            <li>Chakra-UI</li>
             <li>Styled Components</li>
             <li>TypeScript</li>
 
