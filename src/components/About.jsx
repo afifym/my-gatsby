@@ -98,7 +98,7 @@ const About = () => {
             <StyledButton
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1mrfw5MO94-8uENTEJCUW2mb3FFcfDFGC/view?usp=sharing"
+                  "https://drive.google.com/drive/folders/12CyLCmR8qO1g3pTxp9DJZI7FtSS7MEQg?usp=sharing"
                 )
               }
             >
