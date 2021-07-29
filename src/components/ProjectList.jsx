@@ -43,7 +43,7 @@ const projectData = [
   {
     name: "Merchmania",
     description:
-      "An E-commerce website built with React, Redux styled components, and material-ui. Deployed on Firebase",
+      "An E-commerce website built with React, Redux, Styled Components, and Material-UI. Deployed on Firebase",
     url: "https://merchmania-34b24.web.app/",
     image: merchImage,
     icon: merchIcon,

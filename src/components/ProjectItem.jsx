@@ -8,7 +8,8 @@ const Wrapper = styled.div`
   justify-content: space-between;
   flex-wrap: wrap;
   width: 90%;
-  width: 700px;
+  max-width: 700px;
+  min-width: 300px;
   height: 350px;
 
   margin: 1em;
