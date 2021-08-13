@@ -55,6 +55,7 @@ const SkillItem = styled.div`
   width: 400px;
   height: 100%;
   padding: 1em 0.5em;
+  flex: 1;
   text-align: center;
 
   h2 {
