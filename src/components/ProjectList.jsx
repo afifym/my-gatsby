@@ -15,10 +15,24 @@ import intellicIcon from "../assets/icons/intellic.svg"
 import healovoImage from "../assets/images/healovo.jpg"
 import healovoIcon from "../assets/icons/healovo.svg"
 
+import snackatImage from "../assets/images/snackat.png"
+import snackatIcon from "../assets/icons/snackat-logo.png"
+
 import styled from "styled-components"
 import { Container, StyledHeading } from "../styles/sharedStyles"
 
 const projectData = [
+  {
+    name: "Snackat Dashboard",
+    description:
+      "A dashboard for Snackat Cafe suppliers to manage their sales, inventories, subscriptions and financial data",
+    url: "https://partner.snackatcafe.com/",
+    image: snackatImage,
+    icon: snackatIcon,
+    theme: "light",
+    cls: "snackat",
+  },
+
   {
     name: "Starling Time Manager",
     description:
@@ -124,7 +138,7 @@ const ProjectList = () => {
       </h2>
 
       <Wrapper>
-        {projectData?.slice(0, 2)?.map((item, i) => (
+        {projectData?.slice(0, 3)?.map((item, i) => (
           <ProjectItem key={i} data={item} />
         ))}
       </Wrapper>
@@ -142,7 +156,7 @@ const ProjectList = () => {
       </h2>
 
       <Wrapper>
-        {projectData?.slice(2)?.map((item, i) => (
+        {projectData?.slice(3)?.map((item, i) => (
           <ProjectItem key={i} data={item} />
         ))}
       </Wrapper>

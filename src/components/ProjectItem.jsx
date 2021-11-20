@@ -142,7 +142,6 @@ const Wrapper = styled.div`
 
         .bg {
           background-size: 320px;
-
           top: 15px;
         }
       `
@@ -173,6 +172,17 @@ const Wrapper = styled.div`
         .bg {
           background-size: 220px;
           right: -120px;
+          top: 30px;
+        }
+      `
+    } else if (cls === "snackat") {
+      return css`
+        background-color: white;
+        position: relative;
+
+        .bg {
+          background-size: 230px;
+          right: -100px;
           top: 30px;
         }
       `
@@ -220,9 +230,9 @@ const ProjectItem = ({ data }) => {
               backgroundImage: `url(${data.image})`,
             }}
           ></div>
-          <article className="">
+          <article>
             <div>
-              <img src={data.icon} alt={data.name} />
+              <img className="icon" src={data.icon} alt={data.name} />
             </div>
             <div className="text-wrapper">
               <h2>{data.name}</h2>
