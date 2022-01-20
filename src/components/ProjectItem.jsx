@@ -181,9 +181,9 @@ const Wrapper = styled.div`
         position: relative;
 
         .bg {
-          background-size: 230px;
-          right: -100px;
-          top: 30px;
+          background-size: 350px;
+          right: -40px;
+          top: 4px;
         }
       `
     }
